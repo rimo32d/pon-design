@@ -6,6 +6,8 @@
 
 // foundation
 @use './foundation/reset';
+@use './foundation/base';
 
 // layout
+@use './layout/fv';
 @use './layout/l-main';

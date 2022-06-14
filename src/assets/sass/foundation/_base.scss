@@ -1,0 +1,5 @@
+@use '../foundation/font';
+
+body {
+  font-family: font.$main-family;
+}
