@@ -35,16 +35,4 @@ export default({
 </script>
 
 <style lang="scss" scoped>
-  .c-button {
-    border-radius: 50px;
-  }
-  .c-button--white {
-    background-color: transparent;
-    border: 1px solid #fff;
-    padding: 20px 50px;
-    font-weight: 700;
-  }
-  .c-button--purple {
-    background-color: purple;
-  }
 </style>

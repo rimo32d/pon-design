@@ -29,5 +29,22 @@
   }
   &__scroll-arrow {
     position: absolute;
+    writing-mode: vertical-lr;
+    padding: 10px 10px 90px;
+    bottom: 0;
+    right: 20px;
+    letter-spacing: 0.2em;
+    font-size: 0.75rem;
+    &::after {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 1px;
+      height: 80px;
+      background: #fff;
+      content: "";
+      -webkit-animation: scrollDownLine 1.5s infinite;
+      animation: scrollDownLine 1.5s infinite;
+    }
   }
 }

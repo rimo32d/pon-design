@@ -15,12 +15,9 @@
           modifier-class="c-button--white"
         ></TheButton>
       </div>
-      <div class="l-fv__scroll-arrow">
-        <div class="l-fv__scroll-arrow-text">
-          SCROLL
-        </div>
-        <span class="l-fv__scroll-arrow-mark"></span>
-      </div>
+      <span class="l-fv__scroll-arrow">
+        SCROLL
+      </span>
     </section>
     <section class="news"></section>
     <section class="service"></section>
