@@ -9,5 +9,8 @@
 @use './foundation/base';
 
 // layout
-@use './layout/fv';
+@use './layout/l-header.scss';
 @use './layout/l-main';
+
+// project
+@use './project/p-fv';
