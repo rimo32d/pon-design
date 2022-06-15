@@ -1,6 +1,6 @@
 <template>
-  <header v-bind:class="{isActive: isActive}">
-    <div class="l-header">
+  <header class="l-header" v-bind:class="{isActive: isActive}">
+    <div class="l-header__inner">
       <div class="l-header__logo">
         <a href="/">
           PON DESIGN
