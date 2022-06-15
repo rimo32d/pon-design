@@ -8,10 +8,12 @@ header {
   align-items: center;
   position: fixed;
   z-index: 1;
+  transition: all 0.3s;
   .l-header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: color.$whiteColor;
     font-family: font.$main-family;
     padding: 0 25px ;
@@ -50,4 +52,8 @@ header {
       }
     }
   }
+}
+header.isActive {
+  height: 64px;
+  background-color: color.$headerColor;
 }

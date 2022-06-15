@@ -2,34 +2,34 @@
 
 .c-button {
   border-radius: 50px;
-}
-.c-button--white {
-  background-color: transparent;
-  border: 1px solid color.$whiteColor;
-  transition: 0.3s;
-  width: 220px;
-  padding: 20px 0px;
-  font-weight: 700;
-  position: relative;
-  &::after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    top: 22px;
-    right: 20px;
+  &--white {
+    background-color: transparent;
+    border: 1px solid color.$whiteColor;
     transition: 0.3s;
-    border-style: solid;
-    border-width: 6px 0 6px 10.4px;
-    border-color: transparent transparent transparent color.$whiteColor;
-  }
-  &:hover {
-    opacity: 0.8;
+    width: 220px;
+    padding: 20px 0px;
+    font-weight: 700;
+    position: relative;
     &::after {
-      right: 15px;
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 22px;
+      right: 20px;
+      transition: 0.3s;
+      border-style: solid;
+      border-width: 6px 0 6px 10.4px;
+      border-color: transparent transparent transparent color.$whiteColor;
+    }
+    &:hover {
+      opacity: 0.8;
+      &::after {
+        right: 15px;
+      }
     }
   }
-}
-.c-button--purple {
-  background-color: purple;
+  &--purple {
+    background-color: purple;
+  }
 }

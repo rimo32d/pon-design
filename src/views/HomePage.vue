@@ -20,7 +20,10 @@
         SCROLL
       </span>
     </section>
-    <section class="news"></section>
+    <section class="p-news">
+      aa<br>
+      ee
+    </section>
     <section class="service"></section>
     <section class="works"></section>
     <section class="company"></section>
