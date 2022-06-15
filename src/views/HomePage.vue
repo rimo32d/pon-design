@@ -21,8 +21,10 @@
       </span>
     </section>
     <section class="p-news">
-      aa<br>
-      ee
+      <contentTitle
+        text="NEWS"
+        sub="お知らせ"
+      ></contentTitle>
     </section>
     <section class="service"></section>
     <section class="works"></section>
@@ -36,11 +38,13 @@
 <script>
 import TheHeader from '@/components/TheHeader.vue';
 import TheButton from '@/components/TheButton.vue';
+import contentTitle from '@/components/contentTitle.vue';
 export default {
   name: 'HomePage',
   components: {
     TheHeader,
-    TheButton
+    TheButton,
+    contentTitle
   },
 }
 </script>
