@@ -74,6 +74,9 @@
           </content-title>
         </div>
         <div class="p-service__body">
+          <div class="c-card">
+            
+          </div>
         </div>
         <div class="p-service__button">
           <TheButton

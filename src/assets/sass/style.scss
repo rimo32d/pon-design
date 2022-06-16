@@ -2,7 +2,7 @@
 
 // component
 @use './component/c-button';
-// @use './component/c-hamburger';
+@use './component/c-contentTitle';
 
 // foundation
 @use './foundation/reset';
@@ -14,5 +14,5 @@
 
 // project
 @use './project/p-fv';
-@use './project/p-contentTitle';
 @use './project/p-news';
+@use './project/p-service';

@@ -1,9 +1,9 @@
 <template>
-  <div class="p-section">
-    <div class="p-section__title">
+  <div class="c-section">
+    <div class="c-section__title">
       {{ text }}
     </div>
-    <div class="p-section__sub-title" v-bind:class="{ 'p-section__sub-title--center': positonCenter }">
+    <div class="c-section__sub-title" v-bind:class="{ 'c-section__sub-title--center': positonCenter }">
       {{ sub }}
     </div>
   </div>
