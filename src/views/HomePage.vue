@@ -118,9 +118,61 @@
       </div>
     </section>
     <section class="p-works">
-      
+      <div class="p-works__inner">
+        <div class="p-works__swiper">
+          <img src="../assets/image/smoothiesta.png">
+        </div>
+        <div class="p-works__contents">
+          <div class="p-works__head">
+            <content-title
+              text="SERVICE"
+              sub="事業内容"
+              positionCenter="true"
+            >
+            </content-title>
+          </div>
+          <div class="p-works__body">
+            様々なジャンルのWebサイト制作が可能です。ご購入やお申込み数の増加などを実現します！
+          </div>
+          <div class="p-works__button">
+            <TheButton
+              text="MORE"
+              class=""
+              modifier-class="c-button--purple"
+            ></TheButton>
+          </div>
+        </div>
+      </div>
     </section>
-    <section class="company"></section>
+    <section class="p-company">
+      <div class="p-company__inner">
+        <div class="p-company__head">
+          <content-title
+            text="COMPANY"
+            sub="私たちについて"
+            positionCenter="true"
+          >
+          </content-title>
+        </div>
+        <div class="p-company__mission">
+          サイトのゴール = 夢を叶えること
+        </div>
+        <div class="p-company__body">
+          お客様の夢を叶えること。
+          それがWebサイトのゴールであり、私たちが目指すことです。
+          だからこそちゃんと成果を出すサイトを全力でお作りします。
+          お客様の笑顔を見たい。
+          夢を実現する手助けをさせてください。
+        </div>
+        <div class="p-company__button">
+          <TheButton
+            text="MORE"
+            class=""
+            modifier-class="c-button--purple"
+          ></TheButton>
+        </div>
+      </div>
+    </section>
     <section class="recruit"></section>
     <section class="contact"></section>
     <!-- フッター -->
