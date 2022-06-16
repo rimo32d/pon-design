@@ -1,0 +1,39 @@
+.p-news {
+  width: 100%;
+  padding: 70px 0;
+  &__inner {
+    display: flex;
+    justify-content: center;
+  }
+  &__title {
+    margin-right: 50px;
+  }
+  &__contents {
+    display: flex;
+  }
+  &__list {}
+  &__item {
+    display: flex;
+    margin-bottom: 15px;
+    &--date {
+      margin-right: 20px;
+      font-size: 14px;
+    }
+    &--head {
+      margin-right: 20px;
+      background-color: #e8e8e8;
+      border-radius: 50px;
+      width: 80px;
+      padding: 2px 0;
+      & > span {
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 700;
+      }
+    }
+    &--discrption {
+      font-size: 14px;
+    }
+  }
+}

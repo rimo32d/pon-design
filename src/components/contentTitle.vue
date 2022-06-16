@@ -3,7 +3,7 @@
     <div class="p-section__title">
       {{ text }}
     </div>
-    <div class="p-section__sub-title">
+    <div class="p-section__sub-title" v-bind:class="{ 'p-section__sub-title--center': positonCenter }">
       {{ sub }}
     </div>
   </div>
@@ -22,6 +22,11 @@ export default({
       default: "",
       required: false 
     },
+    positonCenter: {
+      type: Boolean,
+      default: false,
+      required: false 
+    }
   },
 })
 </script>
