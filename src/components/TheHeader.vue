@@ -44,23 +44,16 @@
   </header>
 </template>
 
-<script>
-import { onMounted, ref } from 'vue';
-export default {
-  setup () {
-    const isActive = ref(false)
-    onMounted(()=>{
-      window.addEventListener('scroll',()=>{
-        if(window.scrollY > 1){
-          isActive.value = true
-        } else {
-          isActive.value = false
-        }
-      })
+<script setup >
+  import { onMounted, ref } from 'vue';
+  const isActive = ref(false);
+  onMounted(()=>{
+    window.addEventListener('scroll',()=>{
+      if(window.scrollY > 1){
+        isActive.value = true
+      } else {
+        isActive.value = false
+      }
     })
-    return{
-      isActive
-    }
-  }
-}
+  })
 </script>

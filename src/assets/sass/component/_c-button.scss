@@ -30,6 +30,31 @@
     }
   }
   &--purple {
-    background-color: purple;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #7633a4 0%, #250d65 51%, #7633a4 100%);
+    color: color.$whiteColor;
+    transition: 0.3s;
+    width: 220px;
+    padding: 10px 0px;
+    font-weight: 700;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 18px;
+      right: 20px;
+      transition: 0.3s;
+      border-style: solid;
+      border-width: 6px 0 6px 10.4px;
+      border-color: transparent transparent transparent color.$whiteColor;
+    }
+    &:hover {
+      background-position: right center;
+      &::after {
+        right: 15px;
+      }
+    }
   }
 }

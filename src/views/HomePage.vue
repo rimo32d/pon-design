@@ -75,19 +75,51 @@
         </div>
         <div class="p-service__body">
           <div class="c-card">
-            
+            <div class="c-card__image-wrap">
+              <img src="../assets/image/jessy-smith-zFOm6KzA-7g-unsplash.png">
+            </div>
+            <div class="c-card__head">
+              Webサイト制作
+            </div>
+            <div class="c-card__body">
+              新規サイトの制作はもちもんサイトリニューアルやランディングページの制作も可能です。
+            </div>
+          </div>
+          <div class="c-card">
+            <div class="c-card__image-wrap">
+              <img src="../assets/image/service-1.png">
+            </div>
+            <div class="c-card__head">
+              Webサイト運用
+            </div>
+            <div class="c-card__body">
+              サイトの更新作業や独自のアクセス解析に基づいたサイト改善のご提案をいたします。
+            </div>
+          </div>
+          <div class="c-card">
+            <div class="c-card__image-wrap">
+              <img src="../assets/image/service-2.png">
+            </div>
+            <div class="c-card__head">
+              アプリ開発
+            </div>
+            <div class="c-card__body">
+              スマートフォンアプリ開発の他、Vue.jsやReactによるWebアプリの開発が可能です。
+            </div>
           </div>
         </div>
         <div class="p-service__button">
           <TheButton
             text="MORE"
-            class="p-fv__title"
+            class=""
             modifier-class="c-button--purple"
           ></TheButton>
         </div>
       </div>
     </section>
-    <section class="works"></section>
+    <section class="p-works">
+      
+    </section>
     <section class="company"></section>
     <section class="recruit"></section>
     <section class="contact"></section>
