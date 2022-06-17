@@ -1,5 +1,30 @@
 .p-recruit {
+  width: 100%;
+  padding: 70px 0;
   &__inner {
-    
+    display: flex;
+  }
+  &__contents-wrap {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 70px 0;
+  }
+  &__contents {
+    text-align: center;
+  }
+  &__head {
+    margin-bottom: 30px;
+  }
+  &__body {
+    margin-bottom: 30px;
+  }
+  &__image-wrap {
+    width: 60%;
+    background-image: url(../image/you-x-ventures-X8H8vPcelPk-unsplash.png);
+    background-position: center center;
+    background-size: cover;
   }
 }

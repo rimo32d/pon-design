@@ -174,26 +174,34 @@
       </div>
     </section>
     <section class="p-recruit">
-      <div class="p-recriut__inner">
-        <div class="p-recruit__contents">
-          <div class="p-recruit__head">
-            <content-title
-              text="RECRUIT"
-              sub="採用情報"
-              positionCenter="true"
-            >
-            </content-title>
-          </div>
-          <div class="p-recruit__body">
-            私たちと一緒に働きませんか
+      <div class="p-recruit__inner l-inner">
+        <div class="p-recruit__contents-wrap">
+          <div class="p-recruit__contents">
+            <div class="p-recruit__head">
+              <content-title
+                text="RECRUIT"
+                sub="採用情報"
+                positionCenter="true"
+              >
+              </content-title>
+            </div>
+            <div class="p-recruit__body">
+              私たちと一緒に働きませんか
+            </div>
+            <TheButton
+              text="MORE"
+              class=""
+              modifier-class="c-button--purple"
+            ></TheButton>
           </div>
         </div>
         <div class="p-recruit__image-wrap">
-          <img src="">
         </div>
       </div>
     </section>
-    <section class="contact"></section>
+    <section class="contact">
+      
+    </section>
     <!-- フッター -->
   </div>
 </template>
