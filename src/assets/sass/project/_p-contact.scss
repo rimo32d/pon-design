@@ -1,0 +1,18 @@
+.p-contact {
+  width: 100%;
+  &__inner {
+    background-color: #f0f0f0;
+    padding: 70px 0;
+  }
+  &__head {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  &__body {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  &__button {
+    text-align: center;
+  }
+}

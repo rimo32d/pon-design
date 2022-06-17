@@ -199,8 +199,27 @@
         </div>
       </div>
     </section>
-    <section class="contact">
-      
+    <section class="p-contact">
+      <div class="p-contact__inner l-inner">
+        <div class="p-contact__head">
+          <content-title
+            text="CONTACT"
+            sub="お問い合わせ"
+            positionCenter="true"
+          >
+          </content-title>
+        </div>
+        <div class="p-contact__body">
+          Webサイトの制作のご依頼やお見積もりなど、お気軽にご相談ください
+        </div>
+        <div class="p-contact__button">
+          <TheButton
+            text="MORE"
+            class=""
+            modifier-class="c-button--purple"
+          ></TheButton>
+        </div>
+      </div>
     </section>
     <!-- フッター -->
   </div>
