@@ -1,8 +1,8 @@
 <template>
-  <div class="c-section">
-    <h2 class="c-section__title">
+  <div class="c-content-tile">
+    <h2 class="c-content-tile__title">
       {{ text }}
-      <span class="c-section__sub-title" v-bind:class="{ 'c-section__sub-title--center': positonCenter }">
+      <span class="c-content-tile__sub-title" v-bind:class="{ 'c-content-tile__sub-title--center': positonCenter }">
         {{ sub }}
       </span>
     </h2>
