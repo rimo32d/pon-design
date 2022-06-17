@@ -21,7 +21,7 @@
       </span>
     </section>
     <section class="p-news">
-      <div class="p-news__inner">
+      <div class="p-news__inner l-inner">
         <div class="p-news__title">
           <contentTitle
             text="NEWS"
@@ -64,7 +64,7 @@
       </div>
     </section>
     <section class="p-service">
-      <div class="p-service__inner">
+      <div class="p-service__inner l-inner">
         <div class="p-service__head">
           <content-title
             text="SERVICE"
@@ -118,15 +118,15 @@
       </div>
     </section>
     <section class="p-works">
-      <div class="p-works__inner">
+      <div class="p-works__inner l-inner">
         <div class="p-works__swiper">
           <img src="../assets/image/smoothiesta.png">
         </div>
         <div class="p-works__contents">
           <div class="p-works__head">
             <content-title
-              text="SERVICE"
-              sub="事業内容"
+              text="WORKS"
+              sub="制作実績"
               positionCenter="true"
             >
             </content-title>
@@ -145,7 +145,7 @@
       </div>
     </section>
     <section class="p-company">
-      <div class="p-company__inner">
+      <div class="p-company__inner l-inner">
         <div class="p-company__head">
           <content-title
             text="COMPANY"
@@ -158,10 +158,10 @@
           サイトのゴール = 夢を叶えること
         </div>
         <div class="p-company__body">
-          お客様の夢を叶えること。
-          それがWebサイトのゴールであり、私たちが目指すことです。
-          だからこそちゃんと成果を出すサイトを全力でお作りします。
-          お客様の笑顔を見たい。
+          お客様の夢を叶えること。<br>
+          それがWebサイトのゴールであり、私たちが目指すことです。<br>
+          だからこそちゃんと成果を出すサイトを全力でお作りします。<br>
+          お客様の笑顔を見たい。<br>
           夢を実現する手助けをさせてください。
         </div>
         <div class="p-company__button">
@@ -173,7 +173,9 @@
         </div>
       </div>
     </section>
-    <section class="recruit"></section>
+    <section class="recruit">
+      
+    </section>
     <section class="contact"></section>
     <!-- フッター -->
   </div>

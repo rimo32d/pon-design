@@ -1,11 +1,11 @@
 <template>
   <div class="c-section">
-    <div class="c-section__title">
+    <h2 class="c-section__title">
       {{ text }}
-    </div>
-    <div class="c-section__sub-title" v-bind:class="{ 'c-section__sub-title--center': positonCenter }">
-      {{ sub }}
-    </div>
+      <span class="c-section__sub-title" v-bind:class="{ 'c-section__sub-title--center': positonCenter }">
+        {{ sub }}
+      </span>
+    </h2>
   </div>
 </template>
 
