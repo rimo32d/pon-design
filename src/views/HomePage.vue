@@ -222,6 +222,7 @@
       </div>
     </section>
     <TheFooter />
+    <pageTop />
   </div>
 </template>
 
@@ -230,13 +231,15 @@ import TheHeader from '@/components/TheHeader.vue';
 import TheButton from '@/components/TheButton.vue';
 import contentTitle from '@/components/contentTitle.vue';
 import TheFooter from '@/components/TheFooter.vue';
+import pageTop from '@/components/pageTop.vue';
 export default {
   name: 'HomePage',
   components: {
     TheHeader,
     TheButton,
     contentTitle,
-    TheFooter
+    TheFooter,
+    pageTop
   },
 }
 </script>

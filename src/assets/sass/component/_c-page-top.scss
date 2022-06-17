@@ -1,0 +1,57 @@
+@use "../foundation/color";
+
+.c-page-top {
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 70px;
+  bottom: 45px;
+  z-index: 1;
+  width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: color.$whiteColor;
+  transition: all 0.3s;
+  box-shadow: 0 0 6px rgb(0 0 0 / 20%);
+  &__inner {
+    // width: 30px;
+    & > span {
+      position: relative;
+      display: block;
+      width: 27px;
+      height: 4px;
+      border-radius: 5px;
+      background-color: color.$themeColor;
+      transform: rotate(-90deg);
+      &::before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        right: -3px;
+        display: block;
+        width: 18px;
+        height: 4px;
+        border-radius: 5px;
+        background-color: color.$themeColor;
+        transform: rotate(-45deg);
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 5px;
+        right: -3px;
+        display: block;
+        width: 18px;
+        height: 4px;
+        border-radius: 5px;
+        background-color: color.$themeColor;
+        transform: rotate(45deg);
+      }
+    }
+  }
+}
+.c-page-top.isActive {
+  opacity: 1;
+}
