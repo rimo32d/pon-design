@@ -200,7 +200,7 @@
       </div>
     </section>
     <section class="p-contact">
-      <div class="p-contact__inner l-inner">
+      <div class="p-contact__inner">
         <div class="p-contact__head">
           <content-title
             text="CONTACT"
@@ -221,7 +221,7 @@
         </div>
       </div>
     </section>
-    <!-- フッター -->
+    <TheFooter />
   </div>
 </template>
 
@@ -229,12 +229,14 @@
 import TheHeader from '@/components/TheHeader.vue';
 import TheButton from '@/components/TheButton.vue';
 import contentTitle from '@/components/contentTitle.vue';
+import TheFooter from '@/components/TheFooter.vue';
 export default {
   name: 'HomePage',
   components: {
     TheHeader,
     TheButton,
     contentTitle,
+    TheFooter
   },
 }
 </script>
