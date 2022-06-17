@@ -120,7 +120,7 @@
     <section class="p-works">
       <div class="p-works__inner l-inner">
         <div class="p-works__swiper">
-          <img src="../assets/image/smoothiesta.png">
+          <TheSwiper/>
         </div>
         <div class="p-works__contents">
           <div class="p-works__head">
@@ -232,6 +232,7 @@ import TheButton from '@/components/TheButton.vue';
 import contentTitle from '@/components/contentTitle.vue';
 import TheFooter from '@/components/TheFooter.vue';
 import pageTop from '@/components/pageTop.vue';
+import TheSwiper from '@/components/TheSwiper.vue';
 export default {
   name: 'HomePage',
   components: {
@@ -239,7 +240,8 @@ export default {
     TheButton,
     contentTitle,
     TheFooter,
-    pageTop
+    pageTop,
+    TheSwiper
   },
 }
 </script>
