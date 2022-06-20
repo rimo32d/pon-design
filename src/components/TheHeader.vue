@@ -14,27 +14,27 @@
             </a>
           </li>
           <li class="l-header__nav--item">
-            <a href="#" class="l-header__nav--link">
+            <a href="/service" class="l-header__nav--link">
               SERVICE
             </a>
           </li>
           <li class="l-header__nav--item">
-            <a href="#" class="l-header__nav--link">
+            <a href="/works" class="l-header__nav--link">
               WORKS
             </a>
           </li>
           <li class="l-header__nav--item">
-            <a href="#" class="l-header__nav--link">
+            <a href="/company" class="l-header__nav--link">
               COMPANY
             </a>
           </li>
           <li class="l-header__nav--item">
-            <a href="#" class="l-header__nav--link">
+            <a href="/recruit" class="l-header__nav--link">
               RECRUIT
             </a>
           </li>
           <li class="l-header__nav--item">
-            <a href="#" class="l-header__nav--link">
+            <a href="/contact" class="l-header__nav--link">
               CONTACT
             </a>
           </li>

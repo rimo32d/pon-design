@@ -3,23 +3,14 @@
     <!-- ヘッダー -->
     <TheHeader />
     <subTitle
-      mainTitle="NEWS"
+      :mainTitle="pageName"
       subTitle="お知らせ"
     ></subTitle>
-    <div class="p-breadcrumb">
-      <div class="l-inner">
-        <ol class="p-breadcrumb__inner">
-          <li class="p-breadcrumb__list">
-            <a href="#">HOME</a>
-          </li>
-          <li class="p-breadcrumb__list">
-            <a href="#">NEWS</a>
-          </li>
-        </ol>
-      </div>
-    </div>
+    <breadCrumb
+      :pagePath="pageName"
+    />
     <section class="p-news">
-      <div class="p-news__inner l-inner">
+      <div class="p-news__inner l-inner p-news__sub-inner">
         <div class="p-news__contents">
           <ul class="p-news__list">
             <li class="p-news__item">
@@ -171,19 +162,28 @@
 <script>
 import TheHeader from '@/components/TheHeader.vue';
 import subTitle from '@/components/subTitle.vue';
+import breadCrumb from '@/components/breadCrumb.vue';
 import TheButton from '@/components/TheButton.vue';
 import contentTitle from '@/components/contentTitle.vue';
 import TheFooter from '@/components/TheFooter.vue';
 import pageTop from '@/components/pageTop.vue';
+import { ref } from '@vue/reactivity';
 export default {
   name: 'NewsPage',
   components: {
     TheHeader,
     subTitle,
+    breadCrumb,
     TheButton,
     contentTitle,
     TheFooter,
     pageTop,
   },
+  setup () {
+    const pageName = ref("NEWS")
+    return {
+      pageName,
+    }
+  }
 }
 </script>

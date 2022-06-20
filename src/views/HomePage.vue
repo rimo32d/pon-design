@@ -199,28 +199,7 @@
         </div>
       </div>
     </section>
-    <section class="p-contact">
-      <div class="p-contact__inner">
-        <div class="p-contact__head">
-          <content-title
-            text="CONTACT"
-            sub="お問い合わせ"
-            positionCenter="true"
-          >
-          </content-title>
-        </div>
-        <div class="p-contact__body">
-          Webサイトの制作のご依頼やお見積もりなど、お気軽にご相談ください
-        </div>
-        <div class="p-contact__button">
-          <TheButton
-            text="MORE"
-            class=""
-            modifier-class="c-button--purple"
-          ></TheButton>
-        </div>
-      </div>
-    </section>
+    <TheContact />
     <TheFooter />
     <pageTop />
   </div>
@@ -230,6 +209,7 @@
 import TheHeader from '@/components/TheHeader.vue';
 import TheButton from '@/components/TheButton.vue';
 import contentTitle from '@/components/contentTitle.vue';
+import TheContact from '@/components/TheContact.vue';
 import TheFooter from '@/components/TheFooter.vue';
 import pageTop from '@/components/pageTop.vue';
 import TheSwiper from '@/components/TheSwiper.vue';
@@ -238,6 +218,7 @@ export default {
   components: {
     TheHeader,
     TheButton,
+    TheContact,
     contentTitle,
     TheFooter,
     pageTop,
