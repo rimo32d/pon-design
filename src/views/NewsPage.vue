@@ -132,28 +132,7 @@
         <span class="p-news-pagination__button p-news-pagination__link">3</span>
       </div>
     </section>
-    <section class="p-contact">
-      <div class="p-contact__inner">
-        <div class="p-contact__head">
-          <content-title
-            text="CONTACT"
-            sub="お問い合わせ"
-            positionCenter="true"
-          >
-          </content-title>
-        </div>
-        <div class="p-contact__body">
-          Webサイトの制作のご依頼やお見積もりなど、お気軽にご相談ください
-        </div>
-        <div class="p-contact__button">
-          <TheButton
-            text="MORE"
-            class=""
-            modifier-class="c-button--purple"
-          ></TheButton>
-        </div>
-      </div>
-    </section>
+    <TheContact />
     <TheFooter />
     <pageTop />
   </div>
@@ -163,8 +142,7 @@
 import TheHeader from '@/components/TheHeader.vue';
 import subTitle from '@/components/subTitle.vue';
 import breadCrumb from '@/components/breadCrumb.vue';
-import TheButton from '@/components/TheButton.vue';
-import contentTitle from '@/components/contentTitle.vue';
+import TheContact from '@/components/TheContact.vue';
 import TheFooter from '@/components/TheFooter.vue';
 import pageTop from '@/components/pageTop.vue';
 import { ref } from '@vue/reactivity';
@@ -174,8 +152,7 @@ export default {
     TheHeader,
     subTitle,
     breadCrumb,
-    TheButton,
-    contentTitle,
+    TheContact,
     TheFooter,
     pageTop,
   },

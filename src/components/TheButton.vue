@@ -24,7 +24,6 @@ export default ({
     }
   },
   setup(context) {
-    console.log(context)
     const execEmit = () => {
       context.emit('onClick');
     }

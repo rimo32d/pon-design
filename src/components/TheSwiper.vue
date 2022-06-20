@@ -2,8 +2,6 @@
   <swiper
     :effect="'fade'"
     :slides-per-view="1"
-    @swiper="onSwiper"
-    @slideChange="onSlideChange"
     :navigation="true"
     :pagination="pagination"
     :modules="modules"
@@ -34,15 +32,7 @@
       SwiperSlide,
     },
     setup() {
-      const onSwiper = (swiper) => {
-        console.log(swiper);
-      };
-      const onSlideChange = () => {
-        console.log('slide change');
-      };
       return {
-        onSwiper,
-        onSlideChange,
         modules: [EffectFade,Navigation,Pagination],
         pagination: {
         clickable: true,
