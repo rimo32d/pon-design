@@ -1,11 +1,189 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="home">
+    <!-- ヘッダー -->
+    <TheHeader />
+    <subTitle
+      mainTitle="NEWS"
+      subTitle="お知らせ"
+    ></subTitle>
+    <div class="p-breadcrumb">
+      <div class="l-inner">
+        <ol class="p-breadcrumb__inner">
+          <li class="p-breadcrumb__list">
+            <a href="#">HOME</a>
+          </li>
+          <li class="p-breadcrumb__list">
+            <a href="#">NEWS</a>
+          </li>
+        </ol>
+      </div>
+    </div>
+    <section class="p-news">
+      <div class="p-news__inner l-inner">
+        <div class="p-news__contents">
+          <ul class="p-news__list">
+            <li class="p-news__item">
+              <div class="p-news__item--date">2030.02.01</div>
+              <div class="p-news__item--head"><span>お知らせ</span></div>
+              <div class="p-news__item--discrption">
+                <a href="#">
+                  Webデザインニュースサイト「ウェブマガジン」に取材いただきました
+                </a>
+              </div>
+            </li>
+            <li class="p-news__item">
+              <div class="p-news__item--date">2030.01.25</div>
+              <div class="p-news__item--head">
+                <span>制作実績</span>
+              </div>
+              <div class="p-news__item--discrption">
+                <a href="#">
+                  Smoothiesta様のWebサイトを制作いたしました
+                </a>
+              </div>
+            </li>
+            <li class="p-news__item">
+              <div class="p-news__item--date">2030.01.20</div>
+              <div class="p-news__item--head"><span>採用</span></div>
+              <div class="p-news__item--discrption">
+                <a href="#">
+                  Webデザイナーを１名募集中です！
+                </a>
+              </div>
+            </li>
+            <li class="p-news__item">
+              <div class="p-news__item--date">2030.01.15</div>
+              <div class="p-news__item--head"><span>お知らせ</span></div>
+              <div class="p-news__item--discrption">
+                <a href="#">
+                  （２行のテキストの場合）テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります
+                </a>
+              </div>
+            </li>
+            <li class="p-news__item">
+              <div class="p-news__item--date">2030.02.01</div>
+              <div class="p-news__item--head"><span>お知らせ</span></div>
+              <div class="p-news__item--discrption">
+                <a href="#">
+                  テキストが入りますテキストが入りますテキストが入りますテキストが入ります
+                </a>
+              </div>
+            </li>
+            <li class="p-news__item">
+              <div class="p-news__item--date">2030.02.01</div>
+              <div class="p-news__item--head"><span>お知らせ</span></div>
+              <div class="p-news__item--discrption">
+                <a href="#">
+                  テキストが入りますテキストが入りますテキストが入りますテキストが入ります
+                </a>
+              </div>
+            </li>
+            <li class="p-news__item">
+              <div class="p-news__item--date">2030.02.01</div>
+              <div class="p-news__item--head"><span>お知らせ</span></div>
+              <div class="p-news__item--discrption">
+                <a href="#">
+                  テキストが入りますテキストが入りますテキストが入りますテキストが入ります
+                </a>
+              </div>
+            </li>
+            <li class="p-news__item">
+              <div class="p-news__item--date">2030.02.01</div>
+              <div class="p-news__item--head"><span>お知らせ</span></div>
+              <div class="p-news__item--discrption">
+                <a href="#">
+                  テキストが入りますテキストが入りますテキストが入りますテキストが入ります
+                </a>
+              </div>
+            </li>
+            <li class="p-news__item">
+              <div class="p-news__item--date">2030.02.01</div>
+              <div class="p-news__item--head"><span>お知らせ</span></div>
+              <div class="p-news__item--discrption">
+                <a href="#">
+                  テキストが入りますテキストが入りますテキストが入りますテキストが入ります
+                </a>
+              </div>
+            </li>
+            <li class="p-news__item">
+              <div class="p-news__item--date">2030.02.01</div>
+              <div class="p-news__item--head"><span>お知らせ</span></div>
+              <div class="p-news__item--discrption">
+                <a href="#">
+                  テキストが入りますテキストが入りますテキストが入りますテキストが入ります
+                </a>
+              </div>
+            </li>
+            <li class="p-news__item">
+              <div class="p-news__item--date">2030.02.01</div>
+              <div class="p-news__item--head"><span>お知らせ</span></div>
+              <div class="p-news__item--discrption">
+                <a href="#">
+                  テキストが入りますテキストが入りますテキストが入りますテキストが入ります
+                </a>
+              </div>
+            </li>
+            <li class="p-news__item">
+              <div class="p-news__item--date">2030.02.01</div>
+              <div class="p-news__item--head"><span>お知らせ</span></div>
+              <div class="p-news__item--discrption">
+                <a href="#">
+                  テキストが入りますテキストが入りますテキストが入りますテキストが入ります
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="p-news-pagination">
+        <span class="p-news-pagination__button p-news-pagination__current">1</span>
+        <span class="p-news-pagination__button p-news-pagination__link">2</span>
+        <span class="p-news-pagination__button p-news-pagination__link">3</span>
+      </div>
+    </section>
+    <section class="p-contact">
+      <div class="p-contact__inner">
+        <div class="p-contact__head">
+          <content-title
+            text="CONTACT"
+            sub="お問い合わせ"
+            positionCenter="true"
+          >
+          </content-title>
+        </div>
+        <div class="p-contact__body">
+          Webサイトの制作のご依頼やお見積もりなど、お気軽にご相談ください
+        </div>
+        <div class="p-contact__button">
+          <TheButton
+            text="MORE"
+            class=""
+            modifier-class="c-button--purple"
+          ></TheButton>
+        </div>
+      </div>
+    </section>
+    <TheFooter />
+    <pageTop />
   </div>
 </template>
 
 <script>
+import TheHeader from '@/components/TheHeader.vue';
+import subTitle from '@/components/subTitle.vue';
+import TheButton from '@/components/TheButton.vue';
+import contentTitle from '@/components/contentTitle.vue';
+import TheFooter from '@/components/TheFooter.vue';
+import pageTop from '@/components/pageTop.vue';
 export default {
   name: 'NewsPage',
+  components: {
+    TheHeader,
+    subTitle,
+    TheButton,
+    contentTitle,
+    TheFooter,
+    pageTop,
+  },
 }
 </script>
