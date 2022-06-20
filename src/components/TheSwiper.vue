@@ -1,14 +1,22 @@
 <template>
   <swiper
+    :effect="'fade'"
     :slides-per-view="1"
-    :space-between="50"
     @swiper="onSwiper"
     @slideChange="onSlideChange"
+    :navigation="true"
+    :pagination="pagination"
+    :modules="modules"
   >
-    <swiper-slide>Slide 1</swiper-slide>
-    <swiper-slide>Slide 2</swiper-slide>
-    <swiper-slide>Slide 3</swiper-slide>
-    ...
+    <swiper-slide>
+      <img src="../assets/image/smoothiesta.png" style="width: 100%;">
+    </swiper-slide>
+    <swiper-slide>
+      <img src="../assets/image/web-conference.jpeg" style="width: 100%;">
+    </swiper-slide>
+    <swiper-slide>
+      <img src="../assets/image/lamina.jpeg" style="width: 100%;">
+    </swiper-slide>
   </swiper>
 </template>
 <script>
@@ -17,6 +25,12 @@
 
   // Import Swiper styles
   import 'swiper/css';
+  // import "swiper/css/navigation";
+  // import "swiper/css/pagination";
+
+  import { EffectFade } from "swiper";
+  import { Navigation } from "swiper";
+  import { Pagination } from "swiper";
 
   export default {
     components: {
@@ -33,6 +47,13 @@
       return {
         onSwiper,
         onSlideChange,
+        modules: [EffectFade,Navigation,Pagination],
+        pagination: {
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">'  + "</span>";
+        },
+      },
       };
     },
   };

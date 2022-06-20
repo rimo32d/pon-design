@@ -1,0 +1,82 @@
+@use '../foundation/color';
+
+
+.p-works__swiper .swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  z-index: 2;
+  width: 25px;
+  height: 30px;
+  &::before,&::after {
+    content: "";
+    position: absolute;
+    right: 5px;
+    display: block;
+    width: 18px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: color.$themeColor;
+  }
+  &::before {
+    top: 7px;
+    transform: rotate(-45deg);
+  }
+  &::after {
+    top: 18px;
+    transform: rotate(45deg);
+  }
+}
+.p-works__swiper .swiper-button-next {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  width: 25px;
+  height: 30px;
+  z-index: 2;
+  &::before,&::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    display: block;
+    width: 18px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: color.$themeColor;
+  }
+  &::before {
+    top: 7px;
+    transform: rotate(45deg);
+  }
+  &::after {
+    top: 18px;
+    transform: rotate(-45deg);
+  }
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer;
+}
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap,4px);
+}
+.swiper-pagination-bullet {
+  width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,8px));
+  height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,8px));
+  display: inline-block;
+  border-radius: 50%;
+  background: var(--swiper-pagination-bullet-inactive-color,#000);
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, .2);
+}
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: color.$themeColor;
+}
+
+.swiper-pagination {
+  padding: 10px 15px 0 0;
+  text-align: right;
+  transition: .3s opacity;
+  transform: translate3d(0,0,0);
+  z-index: 10;
+}
