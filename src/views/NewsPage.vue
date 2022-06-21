@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <!-- ヘッダー -->
     <TheHeader />
     <subTitle
       :mainTitle="pageName"

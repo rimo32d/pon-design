@@ -1,0 +1,32 @@
+
+
+.p-sub-service {
+  width: 100%;
+  padding: 70px 0;
+  &__inner {}
+  &__contents {
+    margin-bottom: 60px;
+    display: flex;
+    &:last-child {
+      margin: 0;
+    }
+  }
+  &__img {
+    flex: 0 1 40%;
+    margin-right: 50px;
+    & > img {
+      width: 100%;
+    }
+  }
+  &__text {
+    flex: 1;
+    &--head {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    &--body {
+      font-size: 16px;
+    }
+  }
+}

@@ -6,7 +6,7 @@
           <a href="/">HOME</a>
         </li>
         <li class="p-breadcrumb__list">
-          <a :href = pagePath>{{pageName}}</a>
+          <a>{{pageName}}</a>
         </li>
       </ol>
     </div>
