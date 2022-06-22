@@ -16,7 +16,9 @@
           </div>
           <div class="p-sub-service__text">
             <div class="p-sub-service__text--head">
-              Webサイト制作
+              <p>
+                Webサイト制作
+              </p>
             </div>
             <div class="p-sub-service__text--body">
               <p>
