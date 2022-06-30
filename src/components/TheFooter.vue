@@ -3,38 +3,52 @@
     <nav class="l-footer__nav">
       <ul class="l-footer__nav--list">
         <li class="l-footer__nav--item">
-          <a href="/home" class="l-footer__nav--link">
-            HOME
+          <a href="/" class="l-footer__nav--link">
+            <span>
+              HOME
+            </span>
           </a>
         </li>
         <li class="l-footer__nav--item">
           <a href="/news" class="l-footer__nav--link">
-            NEWS
+            <span>
+              NEWS
+            </span>
           </a>
         </li>
         <li class="l-footer__nav--item">
           <a href="/service" class="l-footer__nav--link">
-            SERVICE
+            <span>
+              SERVICE
+            </span>
           </a>
         </li>
         <li class="l-footer__nav--item">
           <a href="/works" class="l-footer__nav--link">
-            WORKS
+            <span>
+              WORKS
+            </span>
           </a>
         </li>
         <li class="l-footer__nav--item">
           <a href="/company" class="l-footer__nav--link">
-            COMPANY
+            <span>
+              COMPANY
+            </span>
           </a>
         </li>
         <li class="l-footer__nav--item">
           <a href="/recruit" class="l-footer__nav--link">
-            RECRUIT
+            <span>
+              RECRUIT
+            </span>
           </a>
         </li>
         <li class="l-footer__nav--item">
           <a href="/contact" class="l-footer__nav--link">
-            CONTACT
+            <span>
+              CONTACT
+            </span>
           </a>
         </li>
       </ul>

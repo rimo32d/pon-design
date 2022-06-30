@@ -11,17 +11,17 @@
     <div class="p-sub-company">
       <div class="p-sub-company__mission-wrap">
         <div class="p-sub-company--mission">
-          <div class="p-sub-company__mission__head">
+          <div class="p-sub-company__mission--head">
             <p>
               メッセージ
             </p>
           </div>
-          <div class="p-sub-company__mission__large">
-            <p>
+          <div class="p-sub-company__mission--large">
+            <span>
               サイトのゴール = 夢を叶えること
-            </p>
+            </span>
           </div>
-          <div class="p-sub-company__mission__small">
+          <div class="p-sub-company__mission--small">
             <p>
               お客様の夢を叶えること。<br>
               それがWebサイトのゴールであり、私たちが目指すことです。<br>
@@ -32,9 +32,9 @@
           </div>
         </div>
       </div>
-      <div class="p-sub-company__rep">
+      <div class="p-sub-company__rep l-inner">
         <div class="p-sub-company__rep-img">
-          <img src="">
+          <img src="../assets/image/CEO.png">
         </div>
         <div class="p-sub-company__rep-massage">
           <div class="p-sub-company__rep-massage--text">
@@ -58,17 +58,28 @@
           </div>
         </div>
       </div>
-      <div class="p-sub-company__overview">
-        <div class="p-sub-company__overview__inner">
-          <div class="p-sub-company__overview-title">
+      <div class="p-sub-company__overview l-inner">
+        <div class="p-sub-company__overview--inner">
+          <p class="p-sub-company__overview-title">
             会社概要
+          </p>
+          <div class="p-sub-company__overview-list-wrap">
+            <dl class="p-sub-company__overview-list" v-for="item in items" :key="item">
+              <dt class="p-sub-company__overview-list--term">{{ item.term }}</dt>
+              <dd class="p-sub-company__overview-list--description">{{ item.desc }}</dd>
+            </dl>
           </div>
-          <dl class="p-sub-company__overview-list">
-            <template v-for="item in items" :key="item">
-              <dt class="p-sub-company__overview-list__term">{{ item.term }}</dt>
-              <dd class="p-sub-company__overview-list__description">{{ item.desc }}</dd>
-            </template>
-          </dl>
+        </div>
+        <div class="p-sub-company__overview--map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.8280303808506!2d139.76493611552277!3d35.68123618019425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1656566160858!5m2!1sja!2sjp"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
     </div>
@@ -106,6 +117,18 @@ export default {
       {
         term: "設立",
         desc: "2025.02.10"
+      },
+      {
+        term: "代表取締役",
+        desc: "猫山ポン太郎"
+      },
+      {
+        term: "資本金",
+        desc: "1,000,000円"
+      },
+      {
+        term: "所在地",
+        desc: "〒555-5555 東京都千代田区 ポンビルディング 606"
       },
     ]
     return {
